@@ -18,7 +18,6 @@ def fillcustomeruser(number = 100):
                 email = fake.email(),
             )[0]
 
-        user.save()
-        
+                
 if __name__ == "__main__":
     fillcustomeruser(100)
